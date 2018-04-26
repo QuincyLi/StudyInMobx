@@ -4,5 +4,8 @@
     "react",
     "stage-2"
   ],
-  "plugins": []
+  "plugins": [
+    "transform-decorators-legacy",
+    "react-hot-loader/babel"
+  ]
 }
