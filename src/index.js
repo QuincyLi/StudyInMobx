@@ -5,6 +5,10 @@ import appState from './Observables/appState';
 
 @observer
 class TimerView extends React.Component {
+  componentWillReceiveProps(){
+    console.log(11);
+  }
+
     render() {
         return (<button onClick={this.onReset}>
                 Seconds passed: {this.props.appState.timer}
